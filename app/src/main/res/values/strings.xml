@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Location Sharing</string>
+    <string name="location_permission_rationale">This app needs location permissions to share your location.</string>
+    <string name="background_location_permission_rationale">This app needs background location permission to continue sharing when the app is closed.</string>
+</resources>

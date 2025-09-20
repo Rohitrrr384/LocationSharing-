@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark theme colors -->
+    <color name="colorPrimary">#64B5F6</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorAccent">#F48FB1</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- Additional colors for dark theming -->
+    <color name="colorPrimaryVariant">#42A5F5</color>
+    <color name="colorOnPrimary">#000000</color>
+    <color name="colorSecondary">#F48FB1</color>
+    <color name="colorSecondaryVariant">#EC407A</color>
+    <color name="colorOnSecondary">#000000</color>
+    <color name="colorSurface">#121212</color>
+    <color name="colorOnSurface">#FFFFFF</color>
+    <color name="colorBackground">#121212</color>
+    <color name="colorOnBackground">#FFFFFF</color>
+    <color name="colorError">#CF6679</color>
+    <color name="colorOnError">#000000</color>
+</resources>

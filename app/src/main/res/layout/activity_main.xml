@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location Sharing App"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/etUserId"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="Enter User ID"
+        android:inputType="text"
+        android:layout_marginBottom="24dp"
+        android:padding="16dp"
+        android:background="@drawable/edittext_background" />
+
+    <Button
+        android:id="@+id/btnSharer"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Share My Location"
+        android:layout_marginBottom="16dp"
+        android:textSize="16sp"
+        style="@style/Widget.MaterialComponents.Button" />
+
+    <Button
+        android:id="@+id/btnViewer"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="View Someone's Location"
+        android:textSize="16sp"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
+
+</LinearLayout>
